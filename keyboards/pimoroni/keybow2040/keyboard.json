@@ -7,7 +7,6 @@
     "bootloader": "rp2040",
     "board": "GENERIC_RP_RP2040",
     "features": {
-        "console": true,
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
@@ -51,7 +50,6 @@
             "rainbow_moving_chevron": true,
             "rainbow_pinwheels": true,
             "raindrops": true,
-            "solid_color": true,
             "solid_reactive": true,
             "solid_reactive_cross": true,
             "solid_reactive_nexus": true,
@@ -87,7 +85,7 @@
             ["GP19", "GP15", "GP11", "GP7"],
             ["GP20", "GP16", "GP12", "GP8"],
             ["GP21", "GP17", "GP13", "GP9"],
-            ["GP23", "NO_PIN", "NO_PIN", "NO_PIN"]
+            ["GP23", null, null, null]
         ]
     },
     "layouts": {
